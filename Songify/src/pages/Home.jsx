@@ -5,6 +5,11 @@ export function Home() {
     return(
         <div className="home-container">
             <Navbar />
+            <div className="first-page-container">
+                <div className="last-news">
+                    
+                </div>
+            </div>
         </div>
     )
 }
