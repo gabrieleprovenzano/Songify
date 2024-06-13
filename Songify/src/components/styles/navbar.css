@@ -1,7 +1,6 @@
 .navbar-container {
     display: flex;
     flex-direction: row;
-    background-color: white;
     height: 75px;
     width: 100%;
     justify-content: center;
@@ -11,24 +10,32 @@
 .icon-container {
     display: flex;
     flex-direction: row;
-    background-color: white;
     height: 100%;
     width: 99%;
     justify-content: space-between;
     align-items: center;
 }
 
-#Z-icon {
-    height: 75px;
-    width: 75px;
+.donda-logo {
+    height: 100%;
 }
 
-#menu-icon {
-    height: 40px;
-    width: 40px;
+#donda-logo {
+    height: 100%;
+    width: 60%;
 }
 
-#user-icon {
-    height: 40px;
-    width: 40px;
+#yzy-cart {
+    height: 100%;
+    width: 5%;
+}
+
+#church {
+    height: 100%;
+    width: 40%;
+}
+
+#yzy-user {
+    height: 100%;
+    width: 5%;
 }

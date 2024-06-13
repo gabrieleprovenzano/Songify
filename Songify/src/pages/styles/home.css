@@ -6,7 +6,7 @@
 
 .home-container{
     display: flex;
-    background-color: rgb(161, 219, 229);
+    background-color: black;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -25,30 +25,16 @@
 
 .last-news {
     display: flex;
-    background: pink;
-    height: 30%;
+    height: 100%;
     width: 100%;
+    justify-content: center;
 }
 
-.last-news:hover {
-    -webkit-animation: bg-pan-top 2s both;
-    animation: bg-pan-top 2s both;
+.second-container {
+    height: 100vh;
+    width: 100%;
+    background: black;
 }
-@-webkit-keyframes bg-pan-top {
-    0% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-    }
-  }
-  @keyframes bg-pan-top {
-    0% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-      background: white;
-    }
-  }
+
+
   

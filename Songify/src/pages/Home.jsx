@@ -7,8 +7,10 @@ export function Home() {
             <Navbar />
             <div className="first-page-container">
                 <div className="last-news">
-                    
+                   <img src="images/donda-collage.png"/>
                 </div>
+            </div>
+            <div className="second-container">
             </div>
         </div>
     )
